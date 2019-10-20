@@ -1,11 +1,14 @@
-# python-sandbox-2
+# python-sandbox-2 #
 
-## VS Code Notes
-Notes: Always have a virtual environment for every project
+## VS Code Notes ##
 
 Shift Command P in VS Code gets the palette.
 
-## Python specific notes
+Type in "Shell" to make sure that I can write `code .` in terminal to open project.
+
+## Python specific notes ##
+
+Always have a virtual environment for every project
 
 `dir([thing])` gets a list of all methods on the type of the variable. 
 For example
@@ -14,10 +17,28 @@ For example
 Will show the list of all string methods available.
 
 
-### Variables
+### Variables ###
 
 Cannot start with a number.
 
-### Syntax Error
+### Syntax Error ###
 
-Read from bottom to top
+Read any syntax errors that show in the command line from bottom to top.
+
+### Different applications of Python ###
+
+* AI/ML
+    * SciPy
+    * NumPy
+    * Pandas
+    * PyTorch
+* Hardware & Micro-controllers
+    * Raspberry Pi
+    * MicroPython
+    * CircuitPython
+* Web Development
+    * Django
+    * Flask
+* Scripting
+    * Dev Ops Configuration Scripts
+
