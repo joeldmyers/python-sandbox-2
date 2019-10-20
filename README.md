@@ -1,6 +1,6 @@
 # python-sandbox-2 #
 
-This is my own personal comprehensive review of Python, since I have mainly been using Node / JS as of late.
+This is my own personal comprehensive review of Python from the ground up, since I have mainly been using Node / JS as of late, except for various cron scripts (API call refresh etc.)
 
 ## VS Code Notes ##
 
