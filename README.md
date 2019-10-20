@@ -53,6 +53,13 @@ F Strings are like template literals in Es6 - they do string interpolation:
 
 To define a function, use `def function_name(param_1, param_2, etc):`
 
+Example function: 
+
+```
+def print_my_name(name):
+    print(f"My name is {name}")
+```
+
 ### Syntax Errors ###
 
 Read any syntax errors that show in the command line from bottom to top.
