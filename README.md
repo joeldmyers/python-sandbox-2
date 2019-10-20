@@ -6,7 +6,7 @@ Shift Command P in VS Code gets the palette.
 
 Type in "Shell" to make sure that I can write `code .` in terminal to open project.
 
-## Python specific notes ##
+## Python notes ##
 
 Always have a virtual environment for every project
 
@@ -42,3 +42,9 @@ Read any syntax errors that show in the command line from bottom to top.
 * Scripting
     * Dev Ops Configuration Scripts
 
+### Conventions ###
+
+#### Pep 8 ####
+
+Pep8 - Style Guide for Python Code
+[Named Link](https://pep8.org/ "Pep8 Website")
