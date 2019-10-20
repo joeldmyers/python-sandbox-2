@@ -2,7 +2,7 @@
 
 ## VS Code Notes ##
 
-Shift Command P in VS Code gets the palette.
+Shift Command P in VS Code gets the command palette.
 
 Type in "Shell" to make sure that I can write `code .` in terminal to open project.
 
@@ -20,6 +20,11 @@ Will show the list of all string methods available.
 ### Variables ###
 
 Cannot start with a number.
+
+Pep8 best practices - name should be all lower case, whole words, separated by an underscore.
+`type(x)` will give the variable type.
+
+`None` is the general equivalent of `Null`, class `NoneType`
 
 ### Syntax Error ###
 
