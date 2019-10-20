@@ -74,7 +74,7 @@ def say_greeting(greeting="Hello", name="John Doe"):
     print(f"{greeting}, {name}")
 ```
 
-Note: default arguments always come last.
+** Note: default arguments must always come last.** 
 
 ### Syntax Errors ###
 
