@@ -34,6 +34,8 @@ To make a number variable floating type, just have a variable, like
 
 You can convert a value to a different type using `int(5)`, `float(3.0)`, etc. 
 
+With strings, it's best practice to use double quotes, to avoid issues when using an apostrophe.
+
 ### Syntax Error ###
 
 Read any syntax errors that show in the command line from bottom to top.
