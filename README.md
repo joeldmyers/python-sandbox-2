@@ -42,6 +42,13 @@ One can concatenate strings with a +: `name = "Joel " + "Myers"`yields "Joel Mye
 
 To declare a long string, use `"""` to start and end.
 
+##### F String #####
+
+F Strings are like template literals in Es6 - they do string interpolation: 
+
+`name = Joel`
+`f"Hello, {name}` yields 'Hello, Joel'.
+
 ### Syntax Error ###
 
 Read any syntax errors that show in the command line from bottom to top.
