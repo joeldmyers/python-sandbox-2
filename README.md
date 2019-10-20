@@ -1,5 +1,7 @@
 # python-sandbox-2 #
 
+This is my own personal comprehensive review of Python, since I have mainly been using Node / JS as of late.
+
 ## VS Code Notes ##
 
 Shift Command P in VS Code gets the command palette.
@@ -29,6 +31,8 @@ Pep8 best practices - name should be all lower case, whole words, separated by a
 To make a number variable floating type, just have a variable, like
 
 `x = 5.0`
+
+You can convert a value to a different type using `int(5)`, `float(3.0)`, etc. 
 
 ### Syntax Error ###
 
