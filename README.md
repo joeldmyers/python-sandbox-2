@@ -49,7 +49,11 @@ F Strings are like template literals in Es6 - they do string interpolation:
 `name = Joel`
 `f"Hello, {name}` yields 'Hello, Joel'.
 
-### Syntax Error ###
+#### Functions ####
+
+To define a function, use `def function_name(param_1, param_2, etc):`
+
+### Syntax Errors ###
 
 Read any syntax errors that show in the command line from bottom to top.
 
