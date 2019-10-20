@@ -58,6 +58,10 @@ Example function:
 ```
 def print_my_name(name):
     print(f"My name is {name}")
+
+
+def meaning_of_life():
+    return 42
 ```
 
 ### Syntax Errors ###
