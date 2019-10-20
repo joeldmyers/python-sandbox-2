@@ -40,6 +40,8 @@ With strings, it's best practice to use double quotes, to avoid issues when usin
 
 One can concatenate strings with a +: `name = "Joel " + "Myers"`yields "Joel Myers"
 
+To declare a long string, use `"""` to start and end.
+
 ### Syntax Error ###
 
 Read any syntax errors that show in the command line from bottom to top.
