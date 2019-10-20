@@ -67,6 +67,12 @@ def add_numbers(x, y):
     return x + y
 ```
 
+To use default values, use equals (like with ES6):
+
+``` 
+def say_greeting(greeting="Hello", name="John Doe"):
+    print(f"{greeting}, {name}")
+
 ### Syntax Errors ###
 
 Read any syntax errors that show in the command line from bottom to top.
