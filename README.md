@@ -47,4 +47,4 @@ Read any syntax errors that show in the command line from bottom to top.
 #### Pep 8 ####
 
 Pep8 - Style Guide for Python Code
-[Named Link](https://pep8.org/ "Pep8 Website")
+[Pep8 Website](https://pep8.org/ "Pep8 Website")
