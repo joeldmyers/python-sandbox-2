@@ -72,6 +72,9 @@ To use default values, use equals (like with ES6):
 ``` 
 def say_greeting(greeting="Hello", name="John Doe"):
     print(f"{greeting}, {name}")
+```
+
+Note: default arguments always come last.
 
 ### Syntax Errors ###
 
