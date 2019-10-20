@@ -62,6 +62,9 @@ def print_my_name(name):
 
 def meaning_of_life():
     return 42
+
+def add_numbers(x, y):
+    return x + y
 ```
 
 ### Syntax Errors ###
