@@ -26,6 +26,10 @@ Pep8 best practices - name should be all lower case, whole words, separated by a
 
 `None` is the general equivalent of `Null`, class `NoneType`
 
+To make a number variable floating type, just have a variable, like
+
+`x = 5.0`
+
 ### Syntax Error ###
 
 Read any syntax errors that show in the command line from bottom to top.
