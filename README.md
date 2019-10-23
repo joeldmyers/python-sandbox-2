@@ -92,7 +92,13 @@ To find the length, use `len(names)`
 
 To get the second item, do `names[1]` (which returns in this case "Buffie Saint Marie")
 
-To re-assign, use `names[1] = 'Janis Joplin'`
+To re-assign, use `names[1] = 'Janis Joplin'`.  
+
+You can also insert - takes index first, object after.
+
+`insert(0, "Karen Dalton")`
+
+To combine lists, use `extend` method.  
 
 Lists retain the order of items (just like arrays in Javascript).
 
@@ -101,6 +107,20 @@ To sort a list -
 `sorted(list)` returns a copy and leaves the original list alone.  so `x = sorted(list)`
 
 `list.sort()` changes the original list.  
+ 
+ To get type of it, type `type(list)` (returns <class 'list'>)
+
+ To get list of methods on a data type, you can use `dir(list)`
+
+ to get help, you can type `help(list)`, or `help(list.reverse)`, for ex.
+
+##### Lookups for lists #####
+
+It's generally O(n) to look up in list.  `"Joel" in names` -> `false`
+
+To get the first index of an item, you can do `names.index("Karen Dalton")`
+
+`names.count("Karen Dalton")` -> 1 
 
 #### Tuples ####
 
