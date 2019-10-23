@@ -120,11 +120,33 @@ It's generally O(n) to look up in list.  `"Joel" in names` -> `false`
 
 To get the first index of an item, you can do `names.index("Karen Dalton")`
 
-`names.count("Karen Dalton")` -> 1 
+`names.count("Karen Dalton")` -> 1
+
+Other methods - 
+
+Removing - 
+
+say `names = ["Joel", "Bob"]`
+
+`names.remove["Bob"]` -> it removes first instance.  
+
+`name.pop()` removes last item and returns it; you can also pop at a certain index by putting index into parentheses
+
+`names.push()`
 
 #### Tuples ####
 
-Tuples are immutable list
+Tuples are immutable lists
+
+They are generally faster. 
+
+to create a tuple, you can just go `a = ()`
+
+One needs to be careful though - `a = (1,)` - here you need a comma at the end.
+
+`student = ("Jane", 8, "History", 3.5)`
+
+`student[0] = "Jane"`
 
 ### Syntax Errors ###
 
