@@ -76,6 +76,16 @@ def say_greeting(greeting="Hello", name="John Doe"):
 
 ** Note: default arguments must always come last.** 
 
+#### Lists ####
+
+Lists are like "arrays" in javascript. 
+`[]` to create an empty list. 
+You can also use `list()` to instantiate.    
+
+#### Tuples ####
+
+Tuples are immutable list
+
 ### Syntax Errors ###
 
 Read any syntax errors that show in the command line from bottom to top.
