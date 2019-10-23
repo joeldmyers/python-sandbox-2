@@ -92,7 +92,15 @@ To find the length, use `len(names)`
 
 To get the second item, do `names[1]` (which returns in this case "Buffie Saint Marie")
 
+To re-assign, use `names[1] = 'Janis Joplin'`
+
 Lists retain the order of items (just like arrays in Javascript).
+
+To sort a list - 
+
+`sorted(list)` returns a copy and leaves the original list alone.  so `x = sorted(list)`
+
+`list.sort()` changes the original list.  
 
 #### Tuples ####
 
