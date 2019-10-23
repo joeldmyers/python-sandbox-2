@@ -76,11 +76,23 @@ def say_greeting(greeting="Hello", name="John Doe"):
 
 ** Note: default arguments must always come last.** 
 
+### Data Structures ###
+
+The main data structures used in Python are lists, tuples, and dictionaries.  
+
 #### Lists ####
 
 Lists are like "arrays" in javascript. 
 `[]` to create an empty list. 
-You can also use `list()` to instantiate.    
+You can also use `list()` to instantiate.  
+
+Typically use plural - `names = ["Alice Coltrane", "Buffie Saint Marie", "Dorothy Ashby"]`
+
+To find the length, use `len(names)`
+
+To get the second item, do `names[1]` (which returns in this case "Buffie Saint Marie")
+
+Lists retain the order of items (just like arrays in Javascript).
 
 #### Tuples ####
 
