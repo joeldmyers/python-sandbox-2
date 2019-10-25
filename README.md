@@ -272,4 +272,4 @@ def get_index(needle, haystack):
 
 Packages!
 
-`python -m pip install requests`
+`pip install requests`
