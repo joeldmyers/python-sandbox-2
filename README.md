@@ -1,6 +1,6 @@
 # python-sandbox-2 #
 
-This is my own personal comprehensive review of Python from the ground up, since I have mainly been using Node / JS as of late, except for various cron scripts.
+This is my own personal comprehensive review of Python from the ground up, since I have mainly been using Node / JS as of late, except for various cron scripts.  Starting from the basics for the sake of thoroughness.
 
 ## VS Code Notes ##
 
@@ -148,6 +148,12 @@ One needs to be careful though - `a = (1,)` - here you need a comma at the end.
 
 `student[0] = "Jane"`
 
+you can 'unpack' them, like destructuring in es6: 
+
+`name, age, subject, gpa = student`
+
+
+
 ### Syntax Errors ###
 
 Read any syntax errors that show in the command line from bottom to top.
@@ -176,3 +182,49 @@ Read any syntax errors that show in the command line from bottom to top.
 Pep8 - Style Guide for Python Code
 
 [Pep8 Website](https://pep8.org/ "Pep8 Website")
+
+
+### Control Flow ###
+
+#### Lists ####
+
+```
+colors ['red', 'green', 'blue']
+for color in colors:
+    print(color)
+```
+
+Note, no block scope in for loop. 
+
+If we want to go through a sequence of numbers, we can use `range(5)` which 
+
+```
+for num in range(1,5):
+    print(num)
+```
+prints :
+`
+1
+2
+3
+4
+`
+
+You can include a third parameter which is the step.
+
+```
+for num in range(1,7,2):
+   print(range)
+```
+
+### Iterating through Dictionaries ###
+
+Generally to iterate through dictionaries, we should use .items() to convert the key-value pairs into tuples.  
+
+Then we can use unpacking to pass those into a for loop: 
+
+```
+hex_colors = {"red": "#f00", "green":"#008"}
+for label, hex in hex_colors.items():
+    print(label, hex)
+```
