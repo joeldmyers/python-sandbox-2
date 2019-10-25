@@ -15,8 +15,14 @@ def repos_with_most_stars(languages):
     parameters = {"q": query}
 
     response = requests.get(gh_api_repo_search_url, parameters)
-    response_json = response.json()["items"]
-    return response_json
+
+    status_code = response.status_code
+
+    if status_code != 200:
+        raise RuntimeError("Error getting data from Github")
+    else:
+        response_json = response.json()["items"]
+        return response_json
 
 
 if __name__ == "__main__":
