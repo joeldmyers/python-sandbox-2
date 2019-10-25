@@ -228,3 +228,41 @@ hex_colors = {"red": "#f00", "green":"#008"}
 for label, hex in hex_colors.items():
     print(label, hex)
 ```
+
+
+### Control Flow ###
+
+```
+if 5 > 3:
+    print("Hallo")
+elif 3 == 3:
+    print "equality"
+else:
+    print("uh oh")
+```
+
+
+```
+counter = 0
+max = 10
+
+while counter < max:
+    print(f"the count is: {counter}")
+    counter = counter + 1
+```
+
+
+##### Break, Continue and Return #####
+
+These are pretty straightforward / like other languages.  
+
+Break breaks out of the whole for loop; continue goes on to the next iteration at the top of the loop; return is like break.  
+
+Fun example from stack overflow re: return: 
+
+```
+def get_index(needle, haystack):
+    for x in range(len(haystack)):
+        if haystack[x] == needle:
+            return x
+```
