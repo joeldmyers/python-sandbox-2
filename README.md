@@ -319,3 +319,31 @@ print joined_list
 
 Everything is an object in Python.  Note: My overall review of OOP is in oop_exercise.py, oop_review.py, and vehicle.py
 
+Generally this review is pretty obvious OOP fundamentals.  
+
+## Handling Exceptions 
+
+Unhandled exceptions are fatal to the application.  We need to make sure we handle all exceptions.  
+
+Generally use try / except. 
+
+```
+try:
+    num = int(user_input)
+    print("cool, all good", num)
+except ValueError:
+    print("Bad Input!")
+
+```
+We can use a tuple to handle multiple error types:
+
+```
+d = {1:1}
+user_input = "a"
+
+try:
+    int(user_input)
+    d[user]
+except (ValueError, KeyError)
+    print("Didn't work")
+```
