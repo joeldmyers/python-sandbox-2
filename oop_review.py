@@ -1,12 +1,13 @@
 # Ye old car class 
-# (haha)
 
 class Car:
     runs = True
-    
-    def start(self, name): 
-        # self is associated with the instance.  
+
+    def __init__(self, name):
+        print(f"New Car")
         self.name = name
+    
+    def start(self): 
 
         if self.runs:
             print(f"{self.name} car is started")
@@ -14,12 +15,12 @@ class Car:
             print(f"{self.name} car is broken")
 
 
-my_subaru = Car()
+my_subaru = Car("Subaru")
 
 print(type(my_subaru))
 
-my_subaru.start("Subaru")
+my_subaru.start()
 
 my_subaru.runs = False
 
-my_subaru.start("Subaru")
+my_subaru.start()
