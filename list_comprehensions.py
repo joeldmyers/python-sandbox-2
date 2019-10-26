@@ -50,3 +50,9 @@ print(set_one)
 dictionary_one = {num: num * num for num in range(100)}
 print(dictionary_one)
 print(dictionary_one[10])
+
+
+# Generators!  
+# better at memory allocation
+
+# TODO - go back and look at the generator expressions.
