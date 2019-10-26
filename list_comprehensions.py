@@ -22,3 +22,18 @@ squares = [num * num for num in range(50)]
 print(squares)
 
 # So it's [ OPERATION TO RETURN for item in iterable]
+
+# We can do this conditionally as well
+
+times_five_squares = [num * num for num in range(100) if num % 5 == 0]
+
+print(times_five_squares)
+
+
+lottery_num_string = "4, 5, 134, 10"
+
+# to get the max do this 
+
+hi_num = max(int(num) for num in lottery_num_string.split(', '))
+
+print(f"The high number is {hi_num}")

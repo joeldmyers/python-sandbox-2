@@ -307,3 +307,9 @@ Namespaces are one honking great idea -- let's do more of those!
 `csv_row = "John,Math,8"`
 `name, subject, age = csv_row.split(',')`
 example of CSV parsing - using unpacking and the split method.
+
+Joins is like - 
+
+list = csv_row.split(',')
+joined_list = " ".join(list)
+print joined_list
