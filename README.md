@@ -383,3 +383,20 @@ class IncorrectValueError(Exception):
 
 raise IncorrectValueError()
 ```
+
+As exceptions get bigger, we can put exceptions in their own file and then import them as needed.
+
+## Importing Libraries and modules
+
+Python's standard library is quite robust.  However, to maintain backwards compatibility, a lot of them aren't the most easy-to-use.  
+
+Common libraries include sys, os, math, json.  
+
+for modules in Python 2, you had to include an __init__.py file for the module to be picked up by Python. 
+
+Even for Python 3, they can be useful.
+
+When importing, only import the specific methods we need.  So in the import_sandbox.py example, we only want to grab the one method.
+
+### Remote Modules
+For remote modules, go to https://pypi.org.  Very similar to npm.
