@@ -372,10 +372,14 @@ If the exception handler will be printing out or logging the traceback; at least
 Just extend from the Exception class.  
 
 ```
-class MyCustomException(Exception):
-    pass
+class IncorrectValueError(Exception):
+    
+    def ___init__(self, value):
+        # message is in the exeption class.
+        message = "bad value"
+        super.__init__(message)
 
 ...
 
-raise MyCustomException()
+raise IncorrectValueError()
 ```
