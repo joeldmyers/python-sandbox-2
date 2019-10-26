@@ -53,6 +53,9 @@ print(dictionary_one[10])
 
 
 # Generators!  
-# better at memory allocation
+# better at memory allocation because it doesn't contain the entire list in memory, it only handles the current one
+# and goes on to the next one. 
 
-# TODO - go back and look at the generator expressions.
+# Just like a list comprehension, set comprehension, but with parentheses
+names=["Jim", "Jam", "Jom"]
+(len(name) for name in names)
