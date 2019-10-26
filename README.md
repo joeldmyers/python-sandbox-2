@@ -1,14 +1,14 @@
-# python-sandbox-2 #
+# python-sandbox-2
 
 This is my own personal comprehensive review of Python from the ground up, since I have mainly been using Node / JS as of late, except for various cron scripts.  Starting from the basics for the sake of thoroughness.
 
-## VS Code Notes ##
+## VS Code Notes
 
 Shift Command P in VS Code gets the command palette.
 
 Type in "Shell" to make sure that I can write `code .` in terminal to open project.
 
-## Python notes ##
+## Python notes
 
 Always have a virtual environment for every project
 
@@ -19,7 +19,7 @@ For example
 Will show the list of all string methods available.
 
 
-### Variables ###
+### Variables
 
 Cannot start with a number.
 
@@ -34,7 +34,7 @@ To make a number variable floating type, just have a variable, like
 
 You can convert a value to a different type using `int(5)`, `float(3.0)`, etc. 
 
-#### Strings ####
+#### Strings
 
 With strings, it's best practice to use double quotes, to avoid issues when using an apostrophe.
 
@@ -42,14 +42,14 @@ One can concatenate strings with a +: `name = "Joel " + "Myers"`yields "Joel Mye
 
 To declare a long string, use `"""` to start and end.
 
-##### F String #####
+##### F String
 
 F Strings are like template literals in Es6 - they do string interpolation: 
 
 `name = Joel`
 `f"Hello, {name}` yields 'Hello, Joel'.
 
-#### Functions ####
+#### Functions
 
 To define a function, use `def function_name(param_1, param_2, etc):`
 
@@ -76,11 +76,11 @@ def say_greeting(greeting="Hello", name="John Doe"):
 
 ** Note: default arguments must always come last.** 
 
-### Data Structures ###
+### Data Structures
 
 The main data structures used in Python are lists, tuples, and dictionaries.  
 
-#### Lists ####
+#### Lists
 
 Lists are like "arrays" in javascript. 
 `[]` to create an empty list. 
@@ -114,7 +114,7 @@ To sort a list -
 
  to get help, you can type `help(list)`, or `help(list.reverse)`, for ex.
 
-##### Lookups for lists #####
+##### Lookups for lists
 
 It's generally O(n) to look up in list.  `"Joel" in names` -> `false`
 
@@ -134,7 +134,7 @@ say `names = ["Joel", "Bob"]`
 
 `names.push()`
 
-#### Tuples ####
+#### Tuples
 
 Tuples are immutable lists
 
@@ -154,11 +154,11 @@ you can 'unpack' them, like destructuring in es6:
 
 
 
-### Syntax Errors ###
+### Syntax Errors
 
 Read any syntax errors that show in the command line from bottom to top.
 
-### Different applications of Python ###
+### Different applications of Python
 
 * AI/ML
     * SciPy
@@ -175,18 +175,18 @@ Read any syntax errors that show in the command line from bottom to top.
 * Scripting
     * Dev Ops Configuration Scripts
 
-### Conventions ###
+### Conventions
 
-#### Pep 8 ####
+#### Pep 8
 
 Pep8 - Style Guide for Python Code
 
 [Pep8 Website](https://pep8.org/ "Pep8 Website")
 
 
-### Control Flow ###
+### Control Flow
 
-#### Lists ####
+#### Lists
 
 ```
 colors ['red', 'green', 'blue']
@@ -217,7 +217,7 @@ for num in range(1,7,2):
    print(range)
 ```
 
-### Iterating through Dictionaries ###
+### Iterating through Dictionaries
 
 Generally to iterate through dictionaries, we should use .items() to convert the key-value pairs into tuples.  
 
@@ -230,7 +230,7 @@ for label, hex in hex_colors.items():
 ```
 
 
-### Control Flow ###
+### Control Flow
 
 ```
 if 5 > 3:
@@ -252,7 +252,7 @@ while counter < max:
 ```
 
 
-##### Break, Continue and Return #####
+##### Break, Continue and Return
 
 These are pretty straightforward / like other languages.  
 
@@ -268,14 +268,14 @@ def get_index(needle, haystack):
 ```
 
 
-### Pip ###
+### Pip
 
 Packages!
 
 `pip install requests`
 
 
-### Easter Eggs In Python ###
+### Easter Eggs In Python
 
 import this
 
@@ -302,7 +302,7 @@ Namespaces are one honking great idea -- let's do more of those!
 
 `import antigravity`
 
-#### Some methods ####
+#### Some methods
 
 `csv_row = "John,Math,8"`
 `name, subject, age = csv_row.split(',')`
@@ -313,3 +313,9 @@ Joins is like -
 list = csv_row.split(',')
 joined_list = " ".join(list)
 print joined_list
+
+
+## OOP
+
+Everything is an object in Python.
+
