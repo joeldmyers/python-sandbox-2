@@ -317,5 +317,5 @@ print joined_list
 
 ## OOP
 
-Everything is an object in Python.
+Everything is an object in Python.  Note: My overall review of OOP is in oop_exercise.py, oop_review.py, and vehicle.py
 

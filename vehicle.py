@@ -2,6 +2,9 @@
 
 # First note, issubclass(class, possibleParentClass)
 
+# In python, you can inherit from multiple classes. 
+# This allows mixins that give certain methods.  for ex., for DB handling dates to get extra date methods.
+
 class Vehicle: 
 
     def __init__(self, make, model, fuel="gas"):
