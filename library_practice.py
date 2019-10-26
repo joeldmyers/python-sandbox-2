@@ -12,8 +12,8 @@ with os.scandir(my_folder) as folder:
         print(f" - { entry.name }")
 
 
-# sys.  Going to take 
+# sys.  Getting arguments passed in when running. 
 
-arguments = sys.argv
+arguments = sys.argv[1:]
 
 print(arguments)

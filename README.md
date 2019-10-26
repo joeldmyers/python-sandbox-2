@@ -407,3 +407,20 @@ do this way:
 `python -m pip install requests`
 
 The -m flag is to install it as a module. 
+
+## Tests
+
+Levels of testing: Unit, Integration, Functional (E2E)
+
+### Unit Tests in Python
+
+Python has an assert method that can be used for quick sanity checks.  
+
+It also comes with `unittest` 
+
+To see sandbox work for unittest, look at multiply.py in this repo.  
+
+Important: 
+* Test class must be subclass of unittest.TestCase
+* test functions must start with test
+* Be sure to import code we want to test. 
