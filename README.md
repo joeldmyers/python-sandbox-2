@@ -400,3 +400,10 @@ When importing, only import the specific methods we need.  So in the import_sand
 
 ### Remote Modules
 For remote modules, go to https://pypi.org.  Very similar to npm.
+
+Don't install globally, because there may be different versions of Python.
+
+do this way: 
+`python -m pip install requests`
+
+The -m flag is to install it as a module. 
