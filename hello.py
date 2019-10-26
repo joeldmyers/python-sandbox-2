@@ -1,4 +1,8 @@
-greetings = ["Hello", "Bonjour", "Hola"]
+from flask import Flask
 
-for greeting in greetings:
-        print(f"{greeting}, world")
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "Hello World!"
+
