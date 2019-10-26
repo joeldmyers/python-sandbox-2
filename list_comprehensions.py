@@ -37,3 +37,16 @@ lottery_num_string = "4, 5, 134, 10"
 hi_num = max(int(num) for num in lottery_num_string.split(', '))
 
 print(f"The high number is {hi_num}")
+
+# Doing set comprehension: 
+
+# to make a set:
+
+set_one = { num * num for num in range(10)}
+print(set_one)
+
+# to make a dictionary: 
+
+dictionary_one = {num: num * num for num in range(100)}
+print(dictionary_one)
+print(dictionary_one[10])
