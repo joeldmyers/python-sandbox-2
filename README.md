@@ -323,7 +323,7 @@ Generally this review is pretty obvious OOP fundamentals.
 
 ## Handling Exceptions 
 
-Unhandled exceptions are fatal to the application.  We need to make sure we handle all exceptions.  
+Unhandled exceptions are fatal to an application.  We need to make sure we handle all exceptions.  
 
 Generally use try / except. 
 
@@ -347,3 +347,22 @@ try:
 except (ValueError, KeyError)
     print("Didn't work")
 ```
+
+From this stack overflow article - https://stackoverflow.com/questions/14797375/should-i-always-specify-an-exception-type-in-except-statements
+
+From the PEP-8 Style Guide for Python :
+
+When catching exceptions, mention specific exceptions whenever possible instead of using a bare except: clause.
+
+For example, use:
+```
+ try:
+     import platform_specific_module 
+ except ImportError:
+     platform_specific_module = None 
+```
+A bare except: clause will catch SystemExit and KeyboardInterrupt exceptions, making it harder to interrupt a program with Control-C, and can disguise other problems. If you want to catch all exceptions that signal program errors, use except Exception: (bare except is equivalent to except BaseException:).
+
+A good rule of thumb is to limit use of bare 'except' clauses to two cases:
+
+If the exception handler will be printing out or logging the traceback; at least the user will be aware that an error has occurred. If the code needs to do some cleanup work, but then lets the exception propagate upwards with raise. try...finally can be a better way to handle this case.
